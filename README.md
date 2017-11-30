@@ -6,7 +6,7 @@ The project idea is to collect NetNTLM* hashes and display back to the user. A T
 
 To build the dock is very simple! On a VPS, just start the dock as:
 
-`docker run -it -p 8080:8080 -p 80:80 -p 445:445 -p 443:443 unl1k3ly/ntlmgrabber:v4 -s servername/IP` 
+`docker run -it -p 8080:8080 -p 80:80 -p 445:445 -p 443:443 unl1k3ly/ntlmgrabber:v5 -s servername/IP` 
 
 After that, browse to http://servername:8080.
 
